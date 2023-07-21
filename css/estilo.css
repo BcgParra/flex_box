@@ -4,7 +4,8 @@
     padding: 0;
     /* Margens internas */
     font-family: Cambria, Georgia, sans-serif;
-    box-sizing: border-box;    /* Encaixa, não passa o limite */
+    box-sizing: border-box;
+    /* Encaixa, não passa o limite */
 }
 
 /* Colocando menu na horizontal com css */
@@ -17,21 +18,94 @@
     padding: 0;
 }
 
-#menu-h ul li{
+#menu-h ul li {
     display: inline;
 }
 
-#menu-h ul li a{
+#menu-h ul li a {
     color: #f2efef;
     padding: 15px;
     text-decoration: none;
     display: inline-block;
-    transition: backgroud .8s;
+    transition: backgroud 0.8s;
 }
-#menu-h ul li a:hover{
+
+#menu-h ul li a:hover {
     background-color: aqua;
 }
+
 /* efeito menu */
 
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: #711e1e;
+}
 
+/* css Banner */
+.text_banner {
+    text-align: center;
+    /*  text-align: start; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #24311c;
+   /*  background-color: #a5cfdf; */
+
+}
+
+body,
+html {
+    height: 100%;
+}
+
+/* Css para as imagens pequenas */
+.column {
+    float: left;
+    width: 25%;
+    padding: 100px 100px;
+    text-align: center;
+
+}
+
+.column img {
+    width: 100px;
+    border: 1px solid #a61414;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+
+.cont_rodape {
+    text-align: center;
+    background-color: #d3fcb6;
+   font-weight: bold;
+
+}
+
+
+.banner {
+    background-image: url("../img/banner.jpg");
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#sobre{
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+
+}
+#produtos{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#contato{
+    background-color: #ffffff;
+    text-align: center;
+    
+}
 
